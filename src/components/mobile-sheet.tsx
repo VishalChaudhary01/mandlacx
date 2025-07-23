@@ -12,6 +12,7 @@ import Link from "next/link";
 import { Menu } from "lucide-react";
 import { UserDropdown } from "./user-dropdown";
 import { NavbarItem } from "./navbar-links";
+import Image from "next/image";
 
 interface MobileSheetProps {
   navbars: NavbarItem[];
@@ -30,7 +31,9 @@ export function MobileSheet({ navbars, active, setActive }: MobileSheetProps) {
 
       <SheetContent side="left" className="w-64">
         <SheetHeader>
-          <SheetTitle className="text-lg font-bold">Secret Sight</SheetTitle>
+          <SheetTitle>
+            <Image src="/logo.svg" alt="logo" width={120} height={24} />
+          </SheetTitle>
         </SheetHeader>
 
         <div className="mt-4 space-y-2">
