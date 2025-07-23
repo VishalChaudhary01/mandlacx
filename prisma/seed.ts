@@ -26,6 +26,7 @@ async function main() {
       incidentType: IncidentType.UNAUTHORIZED_ACCESS,
       tsStart: now,
       tsEnd: addMinutes(now, 2),
+      icon: "/icons/unauthorize.png",
       thumbnailUrl: "/thumbs/shop1.png",
     },
     {
@@ -33,6 +34,7 @@ async function main() {
       incidentType: IncidentType.GUN_TTHRREAT,
       tsStart: addMinutes(now, -60),
       tsEnd: addMinutes(now, -58),
+      icon: "/icons/gun.png",
       thumbnailUrl: "/thumbs/vault1.png",
     },
     {
@@ -40,6 +42,7 @@ async function main() {
       incidentType: IncidentType.UNAUTHORIZED_ACCESS,
       tsStart: addMinutes(now, -120),
       tsEnd: addMinutes(now, -118),
+      icon: "/icons/unauthorize.png",
       thumbnailUrl: "/thumbs/entrance1.png",
     },
     {
@@ -47,6 +50,7 @@ async function main() {
       incidentType: IncidentType.GUN_TTHRREAT,
       tsStart: addMinutes(now, -180),
       tsEnd: addMinutes(now, -175),
+      icon: "/icons/gun.png",
       thumbnailUrl: "/thumbs/shop2.png",
     },
     {
@@ -54,6 +58,7 @@ async function main() {
       incidentType: IncidentType.UNAUTHORIZED_ACCESS,
       tsStart: addMinutes(now, -240),
       tsEnd: addMinutes(now, -237),
+      icon: "/icons/unauthorize.png",
       thumbnailUrl: "/thumbs/vault1.png",
     },
     {
@@ -61,6 +66,7 @@ async function main() {
       incidentType: IncidentType.UNAUTHORIZED_ACCESS,
       tsStart: addMinutes(now, -300),
       tsEnd: addMinutes(now, -298),
+      icon: "/icons/unauthorize.png",
       thumbnailUrl: "/thumbs/entrance1.png",
     },
     {
@@ -68,6 +74,7 @@ async function main() {
       incidentType: IncidentType.GUN_TTHRREAT,
       tsStart: addMinutes(now, -360),
       tsEnd: addMinutes(now, -355),
+      icon: "/icons/gun.png",
       thumbnailUrl: "/thumbs/shop1.png",
     },
     {
@@ -75,6 +82,7 @@ async function main() {
       incidentType: IncidentType.GUN_TTHRREAT,
       tsStart: addMinutes(now, -400),
       tsEnd: addMinutes(now, -397),
+      icon: "/icons/gun.png",
       thumbnailUrl: "/thumbs/vault1.png",
     },
     {
@@ -82,6 +90,7 @@ async function main() {
       incidentType: IncidentType.UNAUTHORIZED_ACCESS,
       tsStart: addMinutes(now, -460),
       tsEnd: addMinutes(now, -458),
+      icon: "/icons/unauthorize.png",
       thumbnailUrl: "/thumbs/entrance1.png",
     },
     {
@@ -89,6 +98,7 @@ async function main() {
       incidentType: IncidentType.UNAUTHORIZED_ACCESS,
       tsStart: addMinutes(now, -500),
       tsEnd: addMinutes(now, -498),
+      icon: "/icons/unauthorize.png",
       thumbnailUrl: "/thumbs/shop2.png",
     },
   ];
